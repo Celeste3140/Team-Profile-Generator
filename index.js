@@ -44,3 +44,8 @@ function MemberQs() {
         name: 'addMembers'
     })
 }
+
+const createPage = data => {
+    fs.writeFile('./dist/index.html', data)
+    console.log('Team profile has beem create!')
+}
