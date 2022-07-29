@@ -1,0 +1,19 @@
+* {
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+header,
+h3 {
+    background-color: rgb(95,158,160);
+    display: flex;
+    align-items: center;
+}
+
+body {
+    flex-direction: column;
+    padding: 5px;
+}
+
+.card {
+    display: inline-block;
+}
