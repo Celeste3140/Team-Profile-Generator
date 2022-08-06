@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Celeste3140/Team-Profile-Generator/issues"
   },
-  "homepage": "https://github.com/Celeste3140/Team-Profile-Generator#readme"
+  "homepage": "https://github.com/Celeste3140/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.0"
+  }
 }
