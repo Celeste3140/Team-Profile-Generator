@@ -1,7 +1,12 @@
 const Employee = require('../lib/employee.class')
 
-const celeste = new Employee('celeste', '20', 'cbaltazar464@gmail.com')
-
-describe('testing employee values',() => {
-    it('check name', () => {expect(name)})
+describe('Employee', () => {
+    describe( 'Employee',() => {
+        it('should return the name of Employee', () => {
+            const employee = NewEngineer ('celeste', 33, 'celeste@gmail.com'); 
+            expect(employee.name.toEqual('celeste'));
+            expect(employee.idNumber.toEqual(33));
+            expect(employee.email.toEqual('celeste@gmail.com'))
+        })
+    })
 })
